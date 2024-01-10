@@ -98,6 +98,83 @@ button {margin:0;}
 margin: 0 auto;
 padding: 0 15px;
 }
+
+/*formular modal*/
+
+.modal-content {
+    margin: 72px 24px;
+}
+
+.modal-form {
+   
+display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+   
+}
+
+.modal-label {
+    color: var(--icon-grey);
+        
+        font-size: 12px;
+        line-height: 14px;
+       letter-spacing: 0.48px;
+}
+
+
+.modal-input {
+    width: 360px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 4px;
+            border: 1px solid var(--brand-color, rgba(46, 47, 66, 0.40));
+            margin-bottom: 8px;
+
+}
+
+.modal-textarea {
+    width: 360px;
+        height: 120;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid var(--brand-color, rgba(46, 47, 66, 0.40));
+
+}
+
+.modal-textarea::placeholder { margin: 8px 16px;}
+
+.modal-paragraph {
+    
+    width: 360px;
+    color: var(--brand-color);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        margin-bottom: 16px;
+}
+
+.send-form-button {
+    width: 105px;
+    color: var(--background-color);
+        text-align: center;
+      font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+        background-color: var(--logo-color);
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+
+}
+
+
+
 /*antet*/
 
 .header {
