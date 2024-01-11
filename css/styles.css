@@ -210,9 +210,12 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 24px;
 }
 
-.input-button:checked + .checked-span:first-child { background-color: var(--una-noua);
+.input-button:checked + .modal-send-label span:first-child {
+    background-color: var(--una-noua);
     border: none;
     fill: var(--background-color-potfolio);
+
+}
 
 }
 
